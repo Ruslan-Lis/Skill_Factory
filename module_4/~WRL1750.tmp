@@ -1,0 +1,10 @@
+Задание 4.1
+База данных содержит список аэропортов практически всех крупных городов России. В большинстве городов есть только один аэропорт. Исключение составляет:
+SELECT a.city,
+       count(DISTINCT a.airport_code) airport_count
+FROM dst_project.airports AS a
+GROUP BY a.city
+HAVING count(DISTINCT a.airport_code) > 1
+ORDER BY 2 DESC,
+         1
+
