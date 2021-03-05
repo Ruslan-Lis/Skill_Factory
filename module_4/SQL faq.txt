@@ -1,4 +1,4 @@
-Задание 4.1 
+﻿Задание 4.1 
 База данных содержит список аэропортов практически всех крупных городов России. В большинстве городов есть только один аэропорт. Исключение составляет:
 
 SELECT a.city,
@@ -243,3 +243,29 @@ group by
 	s.seat_no
 order by
 	2 desc, 1
+
+
+
+6. Переходим к реальной аналитике
+
+/*
+Ваш датасет должен обязательно включать id рейса и города вылета (Анапа) и прилета. 
+Он также  может включать такие данные, как модель самолёта и его характеристики,
+суммарную стоимость всех билетов на рейсе,
+затраченное время в полёте и прочее — на ваше усмотрение.
+*/
+
+SELECT *
+    f.flight_id,
+    f.departure_airport,
+    f.arrival_airport,
+    ap.city as city_arrival,
+    'Anapa' as city_departure,
+    f.aircraft_code
+    
+FROM
+    dst_project.flights as f
+        left join dst_project.airports as ap on f.arrival_airport = ap.airport_code
+WHERE f.departure_airport = 'AAQ'
+  AND (date_trunc('month', f.scheduled_departure) in ('2017-01-01','2017-02-01', '2017-12-01'))
+  AND f.status not in ('Cancelled')
