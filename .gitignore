@@ -5,9 +5,10 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore cache and checkpoints
-.ipynb_checkpints/
-__pycache__/
+.ipynb_checkpints/*
+__pycache__/*
 .pd_cach
+.pyc
 
 # Ignore some files
 module_0/module_0_R_Lisin.ipynb

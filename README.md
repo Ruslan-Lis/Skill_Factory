@@ -1,2 +1,6 @@
-# Skill_Factory
-For my SkillFactory projects.
+# My data science projects
+From the [SkillFactory data Science course](http://skillfactory.ru/data-scientist)
+
+## Projects
+
+* [Project 0. The game: Guess the number](https://github.com/Ruslan-Lis/Skill_Factory/tree/main/module_0)
