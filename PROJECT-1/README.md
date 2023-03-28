@@ -59,6 +59,6 @@
 
 <a id="section5"></a>
 ### Результаты:  
-[.ipynb](https://nbviewer.org/github/Ruslan-Lis/Skill_Factory/blob/a4f40b57f185d2d3dcf762c09cabee0ab7f75133/PROJECT-1/Project-1%20%7C%20Ruslan%20Lisin%20%7C%20Analysis%20of%20resumes%20from%20HeadHunter.ipynb#section0) с выполненными заданиями и выводами
+[.ipynb](https://nbviewer.org/github/Ruslan-Lis/Skill_Factory/blob/a4f40b57f185d2d3dcf762c09cabee0ab7f75133/PROJECT-1/Project-1%20%7C%20Ruslan%20Lisin%20%7C%20Analysis%20of%20resumes%20from%20HeadHunter.ipynb) с выполненными заданиями и выводами
 
 :arrow_up: <a href ="#section0">к оглавлению</a><br>
