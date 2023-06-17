@@ -9,6 +9,7 @@
 __pycache__/*
 .pd_cach
 .pyc
+.json
 
 # Ignore some files
 module_0/module_0_R_Lisin.ipynb
