@@ -41,11 +41,17 @@
 
 <a id="section3"></a>
 ### Краткая информация о данных
+Схема данных
 ![Схема данных](readme_images/image.png)  
-![Таблица VACANCIES](readme_images/image-1.png)    
+Таблица VACANCIES  
+![Таблица VACANCIES](readme_images/image-1.png) 
+Таблица AREAS     
 ![Таблица AREAS](readme_images/image-2.png)  
-![Таблица EMPLOYERS](readme_images/image-3.png)  
+Таблица EMPLOYERS  
+![Таблица EMPLOYERS](readme_images/image-3.png)
+Таблица INDUSTRIES    
 ![Таблица INDUSTRIES](readme_images/image-4.png)  
+Таблица EMPOYERS_INDUSTRIES  
 ![Таблица EMPOYERS_INDUSTRIES](readme_images/image-5.png)
 
   
@@ -68,6 +74,5 @@
 ### Результаты:  
 * поставленные задачи выполнениы с соблюдением поставленных условий
 * выводы представлены в комментариях Notebooк после каждого раздела
-* [.ipynb](https://nbviewer.org/github/Ruslan-Lis/Skill_Factory/blob/a4f40b57f185d2d3dcf762c09cabee0ab7f75133/PROJECT-1/Project-1%20%7C%20Ruslan%20Lisin%20%7C%20Analysis%20of%20resumes%20from%20HeadHunter.ipynb) с выполненными заданиями и выводами и картинкой
 
 :arrow_up: <a href ="#section0">к оглавлению</a><br>
