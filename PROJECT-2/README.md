@@ -41,16 +41,22 @@
 
 <a id="section3"></a>
 ### Краткая информация о данных
-Схема данных
-![Схема данных](readme_images/image.png)  
+
+Схема данных  
+![Схема данных](readme_images/image.png) 
+ 
 Таблица VACANCIES  
 ![Таблица VACANCIES](readme_images/image-1.png) 
+
 Таблица AREAS     
 ![Таблица AREAS](readme_images/image-2.png)  
+
 Таблица EMPLOYERS  
 ![Таблица EMPLOYERS](readme_images/image-3.png)
+
 Таблица INDUSTRIES    
 ![Таблица INDUSTRIES](readme_images/image-4.png)  
+
 Таблица EMPOYERS_INDUSTRIES  
 ![Таблица EMPOYERS_INDUSTRIES](readme_images/image-5.png)
 
